@@ -1,0 +1,99 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nft-card{
+    width: 350px;
+    padding: 1.5rem;
+    border-radius: 0.6rem;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 1px 30px 2px 15px hsl(217, 57%, 9%);
+}
+
+.card-content-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.rate-n-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth-rate, .time{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.eth-icon{
+    width: 12px;
+    object-fit: contain;
+}
+
+.clock-icon{
+    width: 20px;
+}
+
+.user-name{
+    color: white;
+}
+
+.eth-icon, span{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+.divider-line{
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar{
+    width: 35px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
